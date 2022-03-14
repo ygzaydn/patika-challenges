@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSS-2</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <style>
+      h4 {
+        display: contents;
+      }
+      .overall-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .google {
+        margin: auto;
+      }
+      .search-container {
+        background-color: lightgray;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      .bottom-container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .bottom-container > div {
+        width: 33.3%;
+      }
+      .bottom-left-container {
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .bottom-middle-container {
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .bottom-right-container {
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .copyright {
+        text-align: center;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overall-container">
+      <img
+        src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg"
+        alt="google image"
+        class="google"
+      />
+      <div class="search-container">
+        <h4 class="search-text">Search the web using Google!</h4>
+        <input type="text" class="search-input" />
+        <div class="search-button-container">
+          <button class="google-search">Google Search</button>
+          <button class="feel-lucky">I'm feeling lucky</button>
+        </div>
+      </div>
+      <div class="bottom-container">
+        <div class="bottom-left-container">
+          <h4 class="special-searches">Special Searches</h4>
+          <a href="#" class="stanford">Stanford Search</a>
+          <a href="#" class="linux">Linux Search</a>
+        </div>
+        <div class="bottom-middle-container">
+          <a href="#" class="help">Help</a>
+          <a href="#" class="about-google">About Google!</a>
+          <a href="#" class="company-info">Company Info</a>
+          <a href="#" class="google-logos">Google! Logos</a>
+        </div>
+        <div class="bottom-right-container">
+          <h4 class="get-google">Get Google!</h4>
+          <h4 class="update">updates monthly:</h4>
+          <input type="text" class="search-input" />
+          <div class="bottom-left-bottom-div">
+            <button class="subscribe">Subscribe</button>
+            <a href="#" class="archive">Archive</a>
+          </div>
+        </div>
+      </div>
+      <h4 class="copyright">Copyright &copy;1998 Google Inc.</h4>
+    </div>
+  </body>
+</html>
