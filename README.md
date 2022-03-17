@@ -11,7 +11,7 @@ Her bir ödev, ilgili kurs ve sayısına göre numaralandırılmıştır. Ayrıc
 ## HTML
 
 - [HTML-1](html-1/)
-- [HTML-1](html-2/)
+- [HTML-2](html-2/)
 - [HTML-Bölüm-Sonu-2](html-bolum-sonu-2/)
 - [HTML-3](html-3/)
 
