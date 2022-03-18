@@ -27,6 +27,12 @@ h2 {
 }
 .btn-item {
   margin-left: 15px;
+  transition:all .4s;
+}
+
+.btn-item:hover{
+  color:white;
+  background-color: black;
 }
 
 .photo {
