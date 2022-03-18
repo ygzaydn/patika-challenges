@@ -187,3 +187,18 @@ header {
   height: 60%;
   margin: auto 0;
 }
+
+
+.header-left-div a, .header-right-div a {
+  color: #70757a;
+  text-align: center;
+  
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+ 
+}
+
+.header-left-div a:hover, .header-right-div a:hover {
+  text-decoration: underline;
+}
