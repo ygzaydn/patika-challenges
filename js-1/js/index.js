@@ -15,12 +15,21 @@ const showTime = () => {
     let m = today.getMinutes();
     let s = today.getSeconds();
     let d = today.getDay();
-    let mont = today.getMonth();
-    let year = today.getFullYear();
+    let days = [
+        "Pazar",
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma",
+        "Cumartesi",
+    ];
+    let day = days[today.getDay()];
+
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById("myClock").innerHTML =
-        h + ":" + m + ":" + s + "          " + d + "/" + mont + "/" + year;
+        h + ":" + m + ":" + s + "          " + day;
     setTimeout(showTime, 1000);
 };
 
