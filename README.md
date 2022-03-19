@@ -1,6 +1,13 @@
 # patika-challenges
 Her bir ödev, ilgili kurs ve sayısına göre numaralandırılmıştır. Ayrıca alttaki listeden de istenen ödeve ait kodlara erişebilirsiniz.
 
+> Tüm ödevler live-server ile kolayca görülebilir. Bunun için yapılması gerekenler sırası ile:
+
+```
+npm install // gerekli npm paketini yükler
+npm run live-server // package.json dosyasında tanımlanan live-server scriptini koşar. Bu adımdan sonra localhost:8080 adresinden ödevleri görebilirsiniz.
+```
+
 ## CSS
 
 - [CSS-1](css-1/)
